@@ -1,21 +1,10 @@
-import MyHeader from "./Component/MyHeader";
-import MyFooter from "./Component/MyFooter";
-import ListGroup from "./Component/ListGroup";
-import MyMainInfo from "./Component/MyMainInfo";
-import IplTeams from "./Component/IplTeams";
-
 import "bootstrap/dist/css/bootstrap.css";
+import PCMessage from "./Component/PCMessage";
 
 function App() {
   return (
     <div>
-      <MyHeader />
-      <div>
-        <IplTeams />
-        <MyMainInfo />
-      </div>
-
-      <MyFooter />
+      <PCMessage text="Hello My First Property"></PCMessage>
     </div>
   );
 }
